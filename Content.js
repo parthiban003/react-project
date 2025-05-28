@@ -8,7 +8,7 @@ const Content = ({items, handleCheck, handleDelete}) => {
 
   
   return (
-    <main>
+    <>
       {(items.length)? (
         <Itemslist
         items = {items}
@@ -20,7 +20,7 @@ const Content = ({items, handleCheck, handleDelete}) => {
            <h3 style={{marginTop:"2rem"}}>Your List is Emty</h3>
       )
     }
-    </main>
+    </>
   )
 }
 
