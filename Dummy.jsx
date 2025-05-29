@@ -22,3 +22,20 @@
 // console.log(add(15)(3)(7))
 
 // export default Dummy
+import React from 'react'
+
+const Dummy = () => {
+  return (
+    <div>
+      <ul>
+        <li className=''></li>
+        <li className=''></li>
+        <li className=''></li>
+        <li className=''></li>
+        <li className=''></li>
+      </ul>
+    </div>
+  )
+}
+
+export default Dummy

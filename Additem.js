@@ -3,6 +3,7 @@ import { FaPlus } from 'react-icons/fa'
 import { useRef } from 'react';
 
 const Additem = ({newItem, setNewItem, handleSubmit}) => {
+   
   const inputRef = useRef()
   return (
     <form className="addForm" onSubmit={handleSubmit}>
@@ -21,6 +22,7 @@ const Additem = ({newItem, setNewItem, handleSubmit}) => {
       > 
        <FaPlus/>
       </button>
+      
     </form>
   )
 }

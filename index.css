@@ -115,8 +115,9 @@ ul li::before {
 
 .item svg:focus, 
 .item svg:hover {
-  color: red;
+  color: rgb(228, 27, 27);
   outline: none;
+  transform: ease-in-out 0.03;
 }
 
 .addForm {
@@ -160,6 +161,7 @@ button:hover {
   color: white;
   background-color: limegreen;
   outline: none;
+  transition: 0.5;
 }
 
 .searchForm {

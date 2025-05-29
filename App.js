@@ -14,6 +14,10 @@ import Additem from './Additem';
 import Searchitem from './Searchitem';
 import Dummy from './Dummy';
 import apiRequest from './Apirequest';
+import Sample from './Sample';
+import {Provider} from 'react-redux';
+import Store from './Store'
+
 
 
 function App() {
@@ -135,6 +139,11 @@ function App() {
       <Footer
        length = {items.length}
       />
+      {/* <Provider Store = {Store}>
+        <Sample />
+      </Provider>
+       */}
+
       
     </div>
   );
